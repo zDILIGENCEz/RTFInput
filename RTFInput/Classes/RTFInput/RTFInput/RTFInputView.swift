@@ -29,14 +29,14 @@ public class RTFInputView: UIView {
 
     // MARK: - UI elements
 
-    lazy var floatingPlaceholderLabel: UILabel = {
+    public lazy var floatingPlaceholderLabel: UILabel = {
         let label = UILabel()
         label.bonMotStyle = .sansRegular14(.gray)
         label.backgroundColor = .white
         return label
     }()
 
-    lazy var inputTextFieldView: UIView = {
+    public lazy var inputTextFieldView: UIView = {
         let view = UIView()
         view.layer.borderColor = UIColor.scAthens.cgColor
         view.layer.borderWidth = appearance.dividerViewTopOffset
@@ -44,13 +44,13 @@ public class RTFInputView: UIView {
         return view
     }()
 
-    lazy var inputTextField: UITextField = {
+    public lazy var inputTextField: UITextField = {
         let textField = UITextField()
         textField.bonMotStyle = .sansRegular14(.gray)
         return textField
     }()
 
-    lazy var warningLabel: UILabel = {
+    public lazy var warningLabel: UILabel = {
         let label = UILabel()
         label.bonMotStyle = .sansRegular14(.red)
         label.backgroundColor = .white

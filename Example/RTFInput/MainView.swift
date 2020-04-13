@@ -49,6 +49,7 @@ class MainView: UIView {
             make.center.equalToSuperview()
             make.leading.trailing.equalToSuperview()
                 .inset(16)
+            make.height.equalTo(55)
         }
     }
     

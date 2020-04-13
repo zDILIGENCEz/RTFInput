@@ -7,9 +7,9 @@
 
 import UIKit
 
-public extension RTFInput {
+extension RTFInput {
 
-    enum InputType {
+    public enum InputType {
         case number
         case phone
         case password
@@ -44,12 +44,12 @@ public extension RTFInput {
         }
     }
 
-    enum Theme {
+    public enum Theme {
         case standard
         case dark
         case light
 
-        var background: UIColor {
+        public var background: UIColor {
             switch self {
             case .standard:
                 return .white
@@ -60,7 +60,7 @@ public extension RTFInput {
             }
         }
 
-        var text: UIColor {
+        public var text: UIColor {
             switch self {
             case .standard:
                 return UIColor(hex: 0x212121)
@@ -71,7 +71,7 @@ public extension RTFInput {
             }
         }
 
-        var placeholder: UIColor {
+        public var placeholder: UIColor {
             switch self {
             case .standard:
                 return UIColor(hex: 0xC7C7CD)
@@ -82,7 +82,7 @@ public extension RTFInput {
             }
         }
 
-        var cursor: UIColor {
+        public var cursor: UIColor {
             switch self {
             case .standard:
                 return UIColor(hex: 0x757575)
@@ -93,7 +93,7 @@ public extension RTFInput {
             }
         }
 
-        var accent: UIColor {
+        public var accent: UIColor {
             switch self {
             case .standard:
                 return UIColor(hex: 0x01579B)
@@ -104,7 +104,7 @@ public extension RTFInput {
             }
         }
 
-        var warning: UIColor {
+        public var warning: UIColor {
             switch self {
             case .standard:
                 return UIColor(hex: 0xB71C1C)
@@ -118,15 +118,15 @@ public extension RTFInput {
 
 }
 
-public extension RTFInput {
+extension RTFInput {
 
-    enum ViolationStatus {
+    public enum ViolationStatus {
         case valid
         case maxLengthViolated
         case inputTypeViolated
     }
 
-    enum HintVisibility {
+    public enum HintVisibility {
         case visible
         case hidden
     }

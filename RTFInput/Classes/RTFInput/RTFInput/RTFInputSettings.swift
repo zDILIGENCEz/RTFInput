@@ -1,10 +1,3 @@
-//
-//  RTFInputSettings.swift
-//  RTFInput
-//
-//  Created by Kusyumov Nikita on 13.04.2020.
-//
-
 import UIKit
 
 extension RTFInputSettings {
@@ -15,7 +8,7 @@ extension RTFInputSettings {
         fileprivate var _backgroundColor: UIColor = .white
         fileprivate var _textColor: UIColor = .gray
         fileprivate var _placeholderColor: UIColor = .gray
-        fileprivate var _cursorColor: UIColor = .scDeepBlush
+        fileprivate var _cursorColor: UIColor = .blue
         fileprivate var _accentColor: UIColor = .black
         fileprivate var _warningColor: UIColor = .red
 
@@ -97,22 +90,22 @@ extension RTFInputSettings {
 
 public class RTFInputSettings {
 
-    public let backgroundColor: UIColor
-    public let textColor: UIColor
-    public let placeholderColor: UIColor
-    public let cursorColor: UIColor
-    public let accentColor: UIColor
-    public let warningColor: UIColor
+    internal let backgroundColor: UIColor
+    internal let textColor: UIColor
+    internal let placeholderColor: UIColor
+    internal let cursorColor: UIColor
+    internal let accentColor: UIColor
+    internal let warningColor: UIColor
 
-    public let placeholder: String?
-    public let isSecure: Bool?
+    internal let placeholder: String?
+    internal let isSecure: Bool?
 
-    public let maxLength: Int?
-    public let maxLengthViolation: InputViolation?
-    public let inputType: RTFInput.InputType?
-    public let inputTypeViolation: InputViolation?
+    internal let maxLength: Int?
+    internal let maxLengthViolation: InputViolation?
+    internal let inputType: RTFInput.InputType?
+    internal let inputTypeViolation: InputViolation?
 
-    public init(builder: Builder) {
+    private init(builder: Builder) {
 
         backgroundColor = builder._backgroundColor
         textColor = builder._textColor

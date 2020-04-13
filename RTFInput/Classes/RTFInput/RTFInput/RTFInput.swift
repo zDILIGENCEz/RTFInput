@@ -5,7 +5,6 @@
 //  Created by Kusyumov Nikita on 13.04.2020.
 //
 
-import Foundation
 import RxCocoa
 import RxSwift
 import UIKit
@@ -28,12 +27,12 @@ public class RTFInput: UIView {
 
     // MARK: - Init
 
-    public override init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
     }
 
-    public required init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupView()
     }

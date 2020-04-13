@@ -10,7 +10,6 @@ import UIKit
 extension UIColor {
 
     public static let scAthens = UIColor(hexString: "E6E8EC")
-    public static let scDeepBlush = UIColor(hexString: "#E96089")
 
     convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)

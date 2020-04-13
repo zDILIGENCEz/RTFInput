@@ -1,0 +1,16 @@
+PODS:
+  - RTFInput (0.1.0)
+
+DEPENDENCIES:
+  - RTFInput (from `../`)
+
+EXTERNAL SOURCES:
+  RTFInput:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTFInput: b66b25a87d3fec506a1a08f30c69eec72e53238e
+
+PODFILE CHECKSUM: 37bb7f21d672190cea50229cb5497bfe1eb16781
+
+COCOAPODS: 1.9.1

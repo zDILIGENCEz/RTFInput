@@ -1,0 +1,6 @@
+framework module RTFInput {
+  umbrella header "RTFInput-umbrella.h"
+
+  export *
+  module * { export * }
+}

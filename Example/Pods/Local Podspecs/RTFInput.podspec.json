@@ -1,0 +1,22 @@
+{
+  "name": "RTFInput",
+  "version": "0.1.0",
+  "summary": "A short description of RTFInput.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/n.kusyumov@mail.ru/RTFInput",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "n.kusyumov@mail.ru": "n.kusyumov@mail.ru"
+  },
+  "source": {
+    "git": "https://github.com/n.kusyumov@mail.ru/RTFInput.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RTFInput/Classes/**/*"
+}

@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADDE6C183E573C23F16D617CE4CE1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E4878D249461D8B552F3850341334D1 /* Pods-RTFInput_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5B1274B2A51EAA3ED0137B83A4A724 /* Pods-RTFInput_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2B3409E5E43AB1812568207E1B5829 /* Pods-RTFInput_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6057FDD92C569E2278AF406576D50270 /* Pods-RTFInput_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53DD8AE6E3CD03D8A419D84E49BA48BA /* RTFInput-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DCC5458D35F803B05F152782CBDF1C8 /* RTFInput-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D09828FBAB9A60093D1EB3C1C639895 /* Pods-RTFInput_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A7D10DB85121CDE2AA3B1ACE883835 /* Pods-RTFInput_Example-dummy.m */; };
+		6131A5A26C80661E215E5247A2250A71 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0243C4BED2E56926E04A9AFADB618E /* ReplaceMe.swift */; };
+		AC1799AF57395873DB7ADF622DB91907 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D43FAF1AAB2FC832FCFF6FB0B3F04BDA /* RTFInput-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C72495278065CD3572269346D50F1DC /* RTFInput-dummy.m */; };
+		E82837EC148EA3F669F959BAAC16802D /* Pods-RTFInput_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D8C8B58A05C3E60A165061C76D6D5E /* Pods-RTFInput_Tests-dummy.m */; };
+		F928A72FC07236C321111670070BAA54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2672BE14A19FD4BF9E3C7D4F18CCCBC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76705F7B5B09B843A2006A0B7F3ACF28;
+			remoteInfo = "Pods-RTFInput_Example";
+		};
+		E624BC1C25ACFF3387EB475063F42932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D24314EB83D4268B80F1F4979FF04D6;
+			remoteInfo = RTFInput;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FC715F2402C83F39A59ED61BFB4AED /* Pods-RTFInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1344D3C2E4E83E3522669C878362DC26 /* Pods-RTFInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		16B9F4CDF004C16BC150FA506E36A234 /* RTFInput-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTFInput-prefix.pch"; sourceTree = "<group>"; };
+		1D603F9D8C4C5C6AA714C20E91AF0041 /* Pods-RTFInput_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFInput_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		264E4A0FBD4961CDB4BA192B5A0FF9BD /* Pods_RTFInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTFInput_Example.framework; path = "Pods-RTFInput_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34F2F36FE394FE036DD9701B9AE09380 /* Pods-RTFInput_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTFInput_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A58C96FAE5E357B11DC75974DE7CC88 /* Pods-RTFInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3FE8907B6AD4F88A283A4AD1F1FC3A /* Pods-RTFInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTFInput_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56ED19C888782851356E4F9368107EA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F0244DEE163707CA5EB59321F7AA51C /* Pods-RTFInput_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTFInput_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6057FDD92C569E2278AF406576D50270 /* Pods-RTFInput_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFInput_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F743D1C83A87A266ECB3FFEC76CCE82 /* RTFInput-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RTFInput-Info.plist"; sourceTree = "<group>"; };
+		7C72495278065CD3572269346D50F1DC /* RTFInput-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTFInput-dummy.m"; sourceTree = "<group>"; };
+		8DCC5458D35F803B05F152782CBDF1C8 /* RTFInput-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTFInput-umbrella.h"; sourceTree = "<group>"; };
+		8EB5F4F5B1B69C9FB692CD5E12EBB598 /* Pods-RTFInput_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTFInput_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EC2BFDE707D803BFCB334D89B8BA98C /* Pods-RTFInput_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFInput_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F0243C4BED2E56926E04A9AFADB618E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RTFInput/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		97B070B54135661B2997249E578710DD /* Pods_RTFInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTFInput_Tests.framework; path = "Pods-RTFInput_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A7D10DB85121CDE2AA3B1ACE883835 /* Pods-RTFInput_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTFInput_Example-dummy.m"; sourceTree = "<group>"; };
+		AFAACD58755588BD2E0C8D297EE95043 /* RTFInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTFInput.framework; path = RTFInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1EEDCFB2060A9DE3F86916705DEE2B9 /* RTFInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTFInput.release.xcconfig; sourceTree = "<group>"; };
+		B255DA4A5A431860835F485F7D234CFD /* Pods-RTFInput_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTFInput_Tests.modulemap"; sourceTree = "<group>"; };
+		B33205C88793C22A6A22B5B88F37BB43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB1CB6F6CF685E21536AA6B0E8114365 /* Pods-RTFInput_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFInput_Example-Info.plist"; sourceTree = "<group>"; };
+		BC87480F6786C84B3289AF14004031CD /* RTFInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTFInput.debug.xcconfig; sourceTree = "<group>"; };
+		BE5B1274B2A51EAA3ED0137B83A4A724 /* Pods-RTFInput_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTFInput_Example-umbrella.h"; sourceTree = "<group>"; };
+		C8FFAC725905AF2231BF6DAB465790CC /* RTFInput.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RTFInput.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C948ABA18F4D6CEA5CE8194AC2DB5384 /* RTFInput.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTFInput.modulemap; sourceTree = "<group>"; };
+		CC18FBFA58468C541BA0547381CB592E /* Pods-RTFInput_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTFInput_Tests-Info.plist"; sourceTree = "<group>"; };
+		EABA9BE1B2E78B1DBF7ABC5B851BC8DF /* Pods-RTFInput_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTFInput_Example.modulemap"; sourceTree = "<group>"; };
+		F9D8C8B58A05C3E60A165061C76D6D5E /* Pods-RTFInput_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTFInput_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC6E1799E80299800550AB98E32BD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADDE6C183E573C23F16D617CE4CE1B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732C4672A8CDAB50E9773AFE0D843162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1799AF57395873DB7ADF622DB91907 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F435FCF7684406973B52F06B31E9325F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F928A72FC07236C321111670070BAA54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070D2EA89F81C2A6CD2CA29C9F8F0FC7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23909C80C3270BF2CCE401F377C24BB0 /* RTFInput */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23909C80C3270BF2CCE401F377C24BB0 /* RTFInput */ = {
+			isa = PBXGroup;
+			children = (
+				8F0243C4BED2E56926E04A9AFADB618E /* ReplaceMe.swift */,
+				298EFBA286A989DD159FD2FF3A343802 /* Pod */,
+				57F63B17567F50ABD2F56FEC43AE9450 /* Support Files */,
+			);
+			name = RTFInput;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		298EFBA286A989DD159FD2FF3A343802 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				56ED19C888782851356E4F9368107EA9 /* LICENSE */,
+				B33205C88793C22A6A22B5B88F37BB43 /* README.md */,
+				C8FFAC725905AF2231BF6DAB465790CC /* RTFInput.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3563CAF469E5A2B97277AF1AFF5F059E /* Pods-RTFInput_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B255DA4A5A431860835F485F7D234CFD /* Pods-RTFInput_Tests.modulemap */,
+				34F2F36FE394FE036DD9701B9AE09380 /* Pods-RTFInput_Tests-acknowledgements.markdown */,
+				8EC2BFDE707D803BFCB334D89B8BA98C /* Pods-RTFInput_Tests-acknowledgements.plist */,
+				F9D8C8B58A05C3E60A165061C76D6D5E /* Pods-RTFInput_Tests-dummy.m */,
+				CC18FBFA58468C541BA0547381CB592E /* Pods-RTFInput_Tests-Info.plist */,
+				6057FDD92C569E2278AF406576D50270 /* Pods-RTFInput_Tests-umbrella.h */,
+				11FC715F2402C83F39A59ED61BFB4AED /* Pods-RTFInput_Tests.debug.xcconfig */,
+				1344D3C2E4E83E3522669C878362DC26 /* Pods-RTFInput_Tests.release.xcconfig */,
+			);
+			name = "Pods-RTFInput_Tests";
+			path = "Target Support Files/Pods-RTFInput_Tests";
+			sourceTree = "<group>";
+		};
+		57F63B17567F50ABD2F56FEC43AE9450 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C948ABA18F4D6CEA5CE8194AC2DB5384 /* RTFInput.modulemap */,
+				7C72495278065CD3572269346D50F1DC /* RTFInput-dummy.m */,
+				6F743D1C83A87A266ECB3FFEC76CCE82 /* RTFInput-Info.plist */,
+				16B9F4CDF004C16BC150FA506E36A234 /* RTFInput-prefix.pch */,
+				8DCC5458D35F803B05F152782CBDF1C8 /* RTFInput-umbrella.h */,
+				BC87480F6786C84B3289AF14004031CD /* RTFInput.debug.xcconfig */,
+				B1EEDCFB2060A9DE3F86916705DEE2B9 /* RTFInput.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RTFInput";
+			sourceTree = "<group>";
+		};
+		7D0A6A4F306C257355AD815E7FAAE641 /* Pods-RTFInput_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EABA9BE1B2E78B1DBF7ABC5B851BC8DF /* Pods-RTFInput_Example.modulemap */,
+				8EB5F4F5B1B69C9FB692CD5E12EBB598 /* Pods-RTFInput_Example-acknowledgements.markdown */,
+				1D603F9D8C4C5C6AA714C20E91AF0041 /* Pods-RTFInput_Example-acknowledgements.plist */,
+				A2A7D10DB85121CDE2AA3B1ACE883835 /* Pods-RTFInput_Example-dummy.m */,
+				5F0244DEE163707CA5EB59321F7AA51C /* Pods-RTFInput_Example-frameworks.sh */,
+				BB1CB6F6CF685E21536AA6B0E8114365 /* Pods-RTFInput_Example-Info.plist */,
+				BE5B1274B2A51EAA3ED0137B83A4A724 /* Pods-RTFInput_Example-umbrella.h */,
+				3A58C96FAE5E357B11DC75974DE7CC88 /* Pods-RTFInput_Example.debug.xcconfig */,
+				4F3FE8907B6AD4F88A283A4AD1F1FC3A /* Pods-RTFInput_Example.release.xcconfig */,
+			);
+			name = "Pods-RTFInput_Example";
+			path = "Target Support Files/Pods-RTFInput_Example";
+			sourceTree = "<group>";
+		};
+		AB79634D5DE9770767FA4C8C26945E19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D0A6A4F306C257355AD815E7FAAE641 /* Pods-RTFInput_Example */,
+				3563CAF469E5A2B97277AF1AFF5F059E /* Pods-RTFInput_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				070D2EA89F81C2A6CD2CA29C9F8F0FC7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DDA8618653EDB545D04DD103DBC51CFA /* Products */,
+				AB79634D5DE9770767FA4C8C26945E19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA8618653EDB545D04DD103DBC51CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264E4A0FBD4961CDB4BA192B5A0FF9BD /* Pods_RTFInput_Example.framework */,
+				97B070B54135661B2997249E578710DD /* Pods_RTFInput_Tests.framework */,
+				AFAACD58755588BD2E0C8D297EE95043 /* RTFInput.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		283BD5FDC2E49BAC6D5ED1B7CDB5D4C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DD8AE6E3CD03D8A419D84E49BA48BA /* RTFInput-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8CB18F9E6C59AFE55CF8F3B9F28438 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2B3409E5E43AB1812568207E1B5829 /* Pods-RTFInput_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB1C76FE627C02E57AB76805A2869BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4878D249461D8B552F3850341334D1 /* Pods-RTFInput_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D24314EB83D4268B80F1F4979FF04D6 /* RTFInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70D25C0F1687A6AC91CA7A3B38CFFA09 /* Build configuration list for PBXNativeTarget "RTFInput" */;
+			buildPhases = (
+				283BD5FDC2E49BAC6D5ED1B7CDB5D4C3 /* Headers */,
+				DF1F0C6B10D8B36B87D60D16AAD08FA0 /* Sources */,
+				732C4672A8CDAB50E9773AFE0D843162 /* Frameworks */,
+				5A67F4B4BA3656AC8DA63B34BE9F91BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTFInput;
+			productName = RTFInput;
+			productReference = AFAACD58755588BD2E0C8D297EE95043 /* RTFInput.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76705F7B5B09B843A2006A0B7F3ACF28 /* Pods-RTFInput_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0637F7977A8478A91191C60D4287C84 /* Build configuration list for PBXNativeTarget "Pods-RTFInput_Example" */;
+			buildPhases = (
+				CFB1C76FE627C02E57AB76805A2869BB /* Headers */,
+				EC2EDA589801E12F87069F37E27D5646 /* Sources */,
+				4AC6E1799E80299800550AB98E32BD30 /* Frameworks */,
+				E2451312A3CD660CAC641B561E8CEEE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9F61A751AA2C9D638E239EC02B94F0 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFInput_Example";
+			productName = "Pods-RTFInput_Example";
+			productReference = 264E4A0FBD4961CDB4BA192B5A0FF9BD /* Pods_RTFInput_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E438DAE7745B791C03DC1F9DD0260389 /* Pods-RTFInput_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E69E3D3B9D842F9E3BF61A1F869307 /* Build configuration list for PBXNativeTarget "Pods-RTFInput_Tests" */;
+			buildPhases = (
+				BC8CB18F9E6C59AFE55CF8F3B9F28438 /* Headers */,
+				6BE2D9A0F38CE1AEFEB17B34EC2D6C16 /* Sources */,
+				F435FCF7684406973B52F06B31E9325F /* Frameworks */,
+				1E4A473DD2C80B10C82B20D3277E9835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F77AEF76638880247CF0F16A966145 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTFInput_Tests";
+			productName = "Pods-RTFInput_Tests";
+			productReference = 97B070B54135661B2997249E578710DD /* Pods_RTFInput_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DDA8618653EDB545D04DD103DBC51CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76705F7B5B09B843A2006A0B7F3ACF28 /* Pods-RTFInput_Example */,
+				E438DAE7745B791C03DC1F9DD0260389 /* Pods-RTFInput_Tests */,
+				1D24314EB83D4268B80F1F4979FF04D6 /* RTFInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E4A473DD2C80B10C82B20D3277E9835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A67F4B4BA3656AC8DA63B34BE9F91BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2451312A3CD660CAC641B561E8CEEE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE2D9A0F38CE1AEFEB17B34EC2D6C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82837EC148EA3F669F959BAAC16802D /* Pods-RTFInput_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F0C6B10D8B36B87D60D16AAD08FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6131A5A26C80661E215E5247A2250A71 /* ReplaceMe.swift in Sources */,
+				D43FAF1AAB2FC832FCFF6FB0B3F04BDA /* RTFInput-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2EDA589801E12F87069F37E27D5646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D09828FBAB9A60093D1EB3C1C639895 /* Pods-RTFInput_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F77AEF76638880247CF0F16A966145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTFInput_Example";
+			target = 76705F7B5B09B843A2006A0B7F3ACF28 /* Pods-RTFInput_Example */;
+			targetProxy = 2672BE14A19FD4BF9E3C7D4F18CCCBC6 /* PBXContainerItemProxy */;
+		};
+		FE9F61A751AA2C9D638E239EC02B94F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RTFInput;
+			target = 1D24314EB83D4268B80F1F4979FF04D6 /* RTFInput */;
+			targetProxy = E624BC1C25ACFF3387EB475063F42932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29F3D1E57B75D12DE2552B9753E9989C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3FE8907B6AD4F88A283A4AD1F1FC3A /* Pods-RTFInput_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ABE20E362936340FA8257C61A547BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EEDCFB2060A9DE3F86916705DEE2B9 /* RTFInput.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RTFInput/RTFInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTFInput/RTFInput-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTFInput/RTFInput.modulemap";
+				PRODUCT_MODULE_NAME = RTFInput;
+				PRODUCT_NAME = RTFInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98EE5B3C572BA521CA36F2D0355ACE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FC715F2402C83F39A59ED61BFB4AED /* Pods-RTFInput_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC3AE27299622B5AD3802CF6591AAB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC87480F6786C84B3289AF14004031CD /* RTFInput.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RTFInput/RTFInput-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTFInput/RTFInput-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTFInput/RTFInput.modulemap";
+				PRODUCT_MODULE_NAME = RTFInput;
+				PRODUCT_NAME = RTFInput;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD90F354477BB29F2C972E6BF74176FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1344D3C2E4E83E3522669C878362DC26 /* Pods-RTFInput_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB50B40917A31B2D2C5D6D882DE0F87B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A58C96FAE5E357B11DC75974DE7CC88 /* Pods-RTFInput_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E69E3D3B9D842F9E3BF61A1F869307 /* Build configuration list for PBXNativeTarget "Pods-RTFInput_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EE5B3C572BA521CA36F2D0355ACE18 /* Debug */,
+				DD90F354477BB29F2C972E6BF74176FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70D25C0F1687A6AC91CA7A3B38CFFA09 /* Build configuration list for PBXNativeTarget "RTFInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3AE27299622B5AD3802CF6591AAB16 /* Debug */,
+				5ABE20E362936340FA8257C61A547BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0637F7977A8478A91191C60D4287C84 /* Build configuration list for PBXNativeTarget "Pods-RTFInput_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB50B40917A31B2D2C5D6D882DE0F87B /* Debug */,
+				29F3D1E57B75D12DE2552B9753E9989C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

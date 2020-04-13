@@ -14,7 +14,7 @@ extension StringStyle {
 
     public static func sansRegular14(_ color: UIColor) -> StringStyle {
         var style = StringStyle()
-        let font = UIFont(name: "PTSans-Regular", size: 14)
+        let font = UIFont.systemFont(ofSize: 14)
         style.font = font
         style.color = color
         return style

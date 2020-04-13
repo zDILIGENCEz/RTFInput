@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RTFInput_Example' do
+  pod 'RTFInput', :path => '../'
+
+  target 'RTFInput_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

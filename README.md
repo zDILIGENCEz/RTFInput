@@ -22,7 +22,7 @@ pod 'RTFInput'
 
 ## Author
 
-n.kusyumov@mail.ru, n.kusyumov@mail.ru
+Nikita Kusyumov, n.kusyumov@mail.ru
 
 ## License
 

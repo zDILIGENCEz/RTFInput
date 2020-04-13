@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'RTFInput_Example' do
   pod 'RTFInput', :path => '../'
+  pod 'SnapKit'
 
   target 'RTFInput_Tests' do
     inherit! :search_paths

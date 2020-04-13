@@ -1,5 +1,5 @@
 import XCTest
-import RTFInput
+//import RTFInput
 
 class Tests: XCTestCase {
     

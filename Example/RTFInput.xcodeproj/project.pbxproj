@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150C83072444938000DB4128 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C83062444938000DB4128 /* BaseView.swift */; };
+		150C83092444938C00DB4128 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C83082444938C00DB4128 /* BaseViewController.swift */; };
+		150C830B2444941400DB4128 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C830A2444941400DB4128 /* RootRouter.swift */; };
+		150C830F2444944700DB4128 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C830E2444944700DB4128 /* MainView.swift */; };
+		150C83112444945100DB4128 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C83102444945100DB4128 /* MainViewController.swift */; };
 		2CE30E42042706A87B49B69A /* Pods_RTFInput_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2671B21571B4EA8243C3CFBD /* Pods_RTFInput_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -29,23 +32,26 @@
 
 /* Begin PBXFileReference section */
 		0AFE9285CBD1B6D508D7DD31 /* Pods-RTFInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFInput_Example.release.xcconfig"; path = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example.release.xcconfig"; sourceTree = "<group>"; };
+		150C83062444938000DB4128 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		150C83082444938C00DB4128 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		150C830A2444941400DB4128 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		150C830E2444944700DB4128 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		150C83102444945100DB4128 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2671B21571B4EA8243C3CFBD /* Pods_RTFInput_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTFInput_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EAFA564797BDA4EB88635E0 /* Pods-RTFInput_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFInput_Tests.release.xcconfig"; path = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		579A4811DB61A84D9FFDBED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		579A4811DB61A84D9FFDBED6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RTFInput_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTFInput_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* RTFInput_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTFInput_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6B604F9E767154B4DD65749D /* Pods-RTFInput_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFInput_Example.debug.xcconfig"; path = "Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6EDF5FE08DD2D186EA8BE7DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6EDF5FE08DD2D186EA8BE7DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD86546F1547CB11B6CB9D68 /* Pods-RTFInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RTFInput_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RTFInput_Tests/Pods-RTFInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D12CF543DAD8EBA948DEA967 /* RTFInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RTFInput.podspec; path = ../RTFInput.podspec; sourceTree = "<group>"; };
+		D12CF543DAD8EBA948DEA967 /* RTFInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RTFInput.podspec; path = ../RTFInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2B0730F0B773B8F2A89BFFA /* Pods_RTFInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTFInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +75,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150C83042444935A00DB4128 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				150C83062444938000DB4128 /* BaseView.swift */,
+				150C83082444938C00DB4128 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		150C83052444936100DB4128 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				150C830E2444944700DB4128 /* MainView.swift */,
+				150C83102444945100DB4128 /* MainViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		25A23D483FEA34B895656248 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +101,6 @@
 				CD86546F1547CB11B6CB9D68 /* Pods-RTFInput_Tests.debug.xcconfig */,
 				4EAFA564797BDA4EB88635E0 /* Pods-RTFInput_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +137,13 @@
 		607FACD21AFB9204008FA782 /* Example for RTFInput */ = {
 			isa = PBXGroup;
 			children = (
+				150C83052444936100DB4128 /* Classes */,
+				150C83042444935A00DB4128 /* Base */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				150C830A2444941400DB4128 /* RootRouter.swift */,
 			);
 			name = "Example for RTFInput";
 			path = RTFInput;
@@ -227,6 +251,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,7 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -269,11 +293,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RTFInput_Example/Pods-RTFInput_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BonMot/BonMot.framework",
 				"${BUILT_PRODUCTS_DIR}/RTFInput/RTFInput.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BonMot.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTFInput.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,7 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				150C830B2444941400DB4128 /* RootRouter.swift in Sources */,
+				150C83072444938000DB4128 /* BaseView.swift in Sources */,
+				150C83092444938C00DB4128 /* BaseViewController.swift in Sources */,
+				150C83112444945100DB4128 /* MainViewController.swift in Sources */,
+				150C830F2444944700DB4128 /* MainView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,7 +508,9 @@
 			baseConfigurationReference = 6B604F9E767154B4DD65749D /* Pods-RTFInput_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RTFInput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +525,9 @@
 			baseConfigurationReference = 0AFE9285CBD1B6D508D7DD31 /* Pods-RTFInput_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RTFInput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

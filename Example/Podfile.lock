@@ -1,16 +1,42 @@
 PODS:
-  - RTFInput (0.1.0)
+  - BonMot (5.5.1)
+  - RTFInput (0.1.0):
+    - BonMot
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - RTFInput (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - BonMot
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   RTFInput:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RTFInput: b66b25a87d3fec506a1a08f30c69eec72e53238e
+  BonMot: 0d179476725af81f622a6d9f660f43048070016a
+  RTFInput: 6bbf12ac6e189e81769939ecf55e33ef543744c1
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 37bb7f21d672190cea50229cb5497bfe1eb16781
+PODFILE CHECKSUM: 924fc5d22dbf130faa64a90de15a564b323d4f19
 
 COCOAPODS: 1.9.1

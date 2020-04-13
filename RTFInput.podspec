@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'RTFInput'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RTFInput.'
+  s.summary          = 'Add reactive TextFields into your project.'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Integrete the Rx UITextFields into your project.
                        DESC
 
-  s.homepage         = 'https://github.com/n.kusyumov@mail.ru/RTFInput'
+  s.homepage         = 'https://github.com/zDILIGENCEz/RTFInput'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'n.kusyumov@mail.ru' => 'n.kusyumov@mail.ru' }
-  s.source           = { :git => 'https://github.com/n.kusyumov@mail.ru/RTFInput.git', :tag => s.version.to_s }
+  s.author           = { 'Nikita Kusyumov' => 'n.kusyumov@mail.ru' }
+  s.source           = { :git => 'https://github.com/zDILIGENCEz/RTFInput.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'RTFInput/Classes/**/*'
   
@@ -37,6 +38,10 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.dependency 'RxCocoa'
+  s.dependency 'RxSwift'
+  s.dependency 'BonMot'
+  s.dependency 'SnapKit'
+  
 end

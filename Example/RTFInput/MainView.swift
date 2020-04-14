@@ -18,7 +18,13 @@ class MainView: UIView {
         let textInputView = RTFInput()
         let setting = RTFInputSettings.Builder.instance()
             .placeholer("Placeholder")
-            .theme(.standard)
+            .inputType(
+                .email,
+                onViolated: (
+                    message: "Invalid email",
+                    callback: nil
+                )
+            )
             .build()
         textInputView.setup(setting: setting)
         return textInputView

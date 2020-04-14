@@ -156,7 +156,7 @@ private extension Reactive where Base: RTFInput {
             UIView.animate(withDuration: 0.3,  delay: 0.0, options: .curveEaseInOut, animations: {
                 floatingInput.floatingHint.isHidden = (visibility != .visible)
                 floatingInput.floatingHint.alpha = (visibility == .visible) ? 1.0 : 0.0
-                floatingInput.floatingHint.styledText = (visibility == .visible) ?   floatingInput.setting?.placeholder : nil
+                floatingInput.floatingHint.styledText = (visibility == .visible) ?   floatingInput.setting?.floatingHintText : nil
             })
         })
     }

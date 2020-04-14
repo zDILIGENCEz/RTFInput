@@ -5,14 +5,15 @@ extension RTFInputSettings {
     public class Builder {
 
         fileprivate var _theme: RTFInput.Theme = .standard
-        fileprivate var _backgroundColor: UIColor = .white
-        fileprivate var _textColor: UIColor = .gray
-        fileprivate var _placeholderColor: UIColor = .gray
-        fileprivate var _cursorColor: UIColor = .blue
-        fileprivate var _accentColor: UIColor = .black
-        fileprivate var _warningColor: UIColor = .red
+        fileprivate var _backgroundColor: UIColor?
+        fileprivate var _textColor: UIColor?
+        fileprivate var _placeholderColor: UIColor?
+        fileprivate var _cursorColor: UIColor?
+        fileprivate var _accentColor: UIColor?
+        fileprivate var _warningColor: UIColor?
 
         fileprivate var _placeholder: String?
+        fileprivate var _floatingHintText: String?
         fileprivate var _secure: Bool = false
 
         fileprivate var _maxLength: Int?
@@ -63,6 +64,11 @@ extension RTFInputSettings {
             _placeholder = " " + placeholder + " "
             return self
         }
+        
+        public func floatingHintText(_ floatingHintText: String) -> Builder {
+            _floatingHintText = floatingHintText
+            return self
+        }
 
         public func secure(_ isSecure: Bool) -> Builder {
             _secure = isSecure
@@ -98,6 +104,7 @@ public class RTFInputSettings {
     internal let warningColor: UIColor
 
     internal let placeholder: String?
+    internal let floatingHintText: String?
     internal let isSecure: Bool?
 
     internal let maxLength: Int?
@@ -107,14 +114,15 @@ public class RTFInputSettings {
 
     private init(builder: Builder) {
 
-        backgroundColor = builder._backgroundColor
-        textColor = builder._textColor
-        placeholderColor = builder._placeholderColor
-        cursorColor = builder._cursorColor
-        accentColor = builder._accentColor
-        warningColor = builder._warningColor
+        backgroundColor = builder._backgroundColor ?? builder._theme.background
+        textColor = builder._textColor ?? builder._theme.text
+        placeholderColor = builder._placeholderColor ?? builder._theme.placeholder
+        cursorColor = builder._cursorColor ?? builder._theme.cursor
+        accentColor = builder._accentColor ?? builder._theme.cursor
+        warningColor = builder._warningColor ?? builder._theme.accent
 
         placeholder = builder._placeholder
+        floatingHintText = builder._floatingHintText ?? builder._placeholder
         isSecure = builder._secure
 
         maxLength = builder._maxLength

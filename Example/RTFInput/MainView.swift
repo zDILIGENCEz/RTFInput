@@ -14,10 +14,31 @@ class MainView: UIView {
     
     // MARK: - UI elements
     
-    lazy var enterTextInputView: RTFInput = {
+    lazy var firstTextInputView: RTFInput = {
         let textInputView = RTFInput()
         let setting = RTFInputSettings.Builder.instance()
             .placeholer("Placeholder")
+            .theme(.standard)
+            .build()
+        textInputView.setup(setting: setting)
+        return textInputView
+    }()
+    
+    lazy var secondTextInputView: RTFInput = {
+        let textInputView = RTFInput()
+        let setting = RTFInputSettings.Builder.instance()
+            .placeholer("Placeholder")
+            .theme(.light)
+            .build()
+        textInputView.setup(setting: setting)
+        return textInputView
+    }()
+    
+    lazy var thirdTextInputView: RTFInput = {
+        let textInputView = RTFInput()
+        let setting = RTFInputSettings.Builder.instance()
+            .placeholer("Placeholder")
+            .theme(.dark)
             .build()
         textInputView.setup(setting: setting)
         return textInputView
@@ -41,12 +62,30 @@ class MainView: UIView {
     }
     
     private func addSubviews() {
-        addSubview(enterTextInputView)
+        addSubview(firstTextInputView)
+        addSubview(secondTextInputView)
+        addSubview(thirdTextInputView)
     }
     
     private func makeConstraints() {
-        enterTextInputView.snp.makeConstraints { make in
+        firstTextInputView.snp.makeConstraints { make in
+            make.bottom.equalTo(secondTextInputView.snp.top)
+                .offset(-24)
+            make.leading.trailing.equalToSuperview()
+                .inset(16)
+            make.height.equalTo(55)
+        }
+        
+        secondTextInputView.snp.makeConstraints { make in
             make.center.equalToSuperview()
+            make.leading.trailing.equalToSuperview()
+                .inset(16)
+            make.height.equalTo(55)
+        }
+        
+        thirdTextInputView.snp.makeConstraints { make in
+            make.top.equalTo(secondTextInputView.snp.bottom)
+                .offset(24)
             make.leading.trailing.equalToSuperview()
                 .inset(16)
             make.height.equalTo(55)

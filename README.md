@@ -56,6 +56,17 @@ You can easily edit any of the elements as you want! All you need is to change s
 2. Add features & customizations
 3. Setup `RTFInput` by created `RTFInputSetting` instance
 
+```swift
+lazy var firstTextInputView: RTFInput = {
+    let textInputView = RTFInput()
+    let setting = RTFInputSettings.Builder.instance()
+        // Add Your customize code here
+        .build()
+    textInputView.setup(setting: setting)
+    return textInputView
+}()
+```
+
 **- change theme**
 
 <p align="center">
@@ -83,14 +94,87 @@ You can easily change the theme, just specify one of the values:
 
 Please note that if theme and color customization, e.g. textColor, are both setup in builder, the text color from theme will be ignored.
 
-**- change background color**
+**- change colors**
 
-**- change text color**
-**- change placeholder color**
+<p align="center">
+    <img src="./Screenshots/colors.gif">
+</p>
+
+You can change all elements You want. Background, text, placeholder and other.
+
+just add next code:
+
+**to change plaseholder color**
+```swift
+.placeholderColor(.red)
+```
+
+**to change text color**
+```swift
+.textColor(.blue)
+```
+
+**to change background color**
+```swift
+.backgroundColor(.yellow)
+```
+
+**to change cursor color**
+```swift
+.cursorColor(.purple)
+```
+
+**to change floating hint text color**
+```swift
+.accentColor(.brown)
+```
+
+**to change warning text color**
+```swift
+.warningColor(.green)
+```
+
 **- change secure value**
-**- change max lenght**
-**- change input type**
-**- change floating and warning hints**
+
+<p align="center">
+    <img src="./Screenshots/secure.gif">
+</p>
+
+Also you can change the secure value to your text
+
+```swift
+.secure(true)
+```
+
+**- configure warnings**
+
+<p align="center">
+    <img src="./Screenshots/warnings.gif">
+</p>
+
+You can configure the error message and action if You need it.
+- number
+- phone
+- password
+- email
+- index
+- cardNumber
+- cardValidity
+- CVV
+
+or You can write your custom regular expression
+
+- regex(pattern: String)
+
+```swift
+.inputType(
+    .email,
+    onViolated: (
+        message: "Invalid email",
+        callback: nil
+    )
+)
+```
 
 ## Author
 

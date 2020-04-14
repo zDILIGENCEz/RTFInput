@@ -1,6 +1,7 @@
 # RTFInput
 
-[![Version](https://img.shields.io/cocoapods/v/RTFInput.svg?style=flat?color=pink)](https://cocoapods.org/pods/RTFInput)
+[![CI Status](https://img.shields.io/travis/n.kusyumov@mail.ru/RTFInput.svg?style=flat)](https://travis-ci.org/n.kusyumov@mail.ru/RTFInput)
+[![Version](https://img.shields.io/cocoapods/v/RTFInput.svg?style=flat)](https://cocoapods.org/pods/RTFInput)
 [![License](https://img.shields.io/cocoapods/l/RTFInput.svg?style=flat)](https://cocoapods.org/pods/RTFInput)
 [![Platform](https://img.shields.io/cocoapods/p/RTFInput.svg?style=flat)](https://cocoapods.org/pods/RTFInput)
 

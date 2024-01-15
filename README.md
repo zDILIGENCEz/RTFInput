@@ -1,5 +1,7 @@
 # RTFInput
 
+This is a cocoapods librarry which implement custom UITextFileds based on RxSwift and RxCocoa. 
+
 [![CI Status](https://img.shields.io/travis/n.kusyumov@mail.ru/RTFInput.svg?style=flat)](https://travis-ci.org/n.kusyumov@mail.ru/RTFInput)
 [![Version](https://img.shields.io/cocoapods/v/RTFInput.svg?style=flat)](https://cocoapods.org/pods/RTFInput)
 [![License](https://img.shields.io/cocoapods/l/RTFInput.svg?style=flat)](https://cocoapods.org/pods/RTFInput)
